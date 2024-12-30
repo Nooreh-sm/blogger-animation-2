@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Education Tools Wheel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wheel-container">
+        <div class="wheel">
+            <div class="slice" data-tool="Socratic">Socratic</div>
+            <div class="slice" data-tool="Duolingo">Duolingo</div>
+            <div class="slice" data-tool="Milo">Milo</div>
+            <div class="slice" data-tool="Khan Academy">Khan</div>
+            <div class="slice" data-tool="Quizlet">Quizlet</div>
+            <div class="slice" data-tool="Photomath">Photomath</div>
+        </div>
+        <div class="tooltip"></div>
+    </div>
+    <div id="details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="tool-name"></h2>
+            <p id="tool-description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
